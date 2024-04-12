@@ -72,8 +72,15 @@ button:hover{
 
 button:active{
   transform: translate(0,0.3 rem);
+  box-shadow: 0 0.1rem rgba(255,255,255,065);
 }
 
+.twitter-button:hover{
+  color: #38a1f3
+}
+.fa_twitter{
+  font-size: 1.5rem;
+}
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width:1000px) {
   .quote-container{
